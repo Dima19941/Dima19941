@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site</title>
+	   <link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="font-family: calibri;" > 
+<header class="header">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 logo">
+				<a href="#">
+					<img src="logo.png" alt="logo">
+				</a>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nav">
+				<ul class="menu ">
+					<li class="li"><a href="#">Home</a></li>
+					<li class="li"><a href="#">Products</a>
+						<ul class="submenu">
+							<li><a href="#">Lorem ipsum dolor</a></li>
+							<li><a href="#">Sit amet</a></li>
+							<li><a href="#">Consectetur adipisicing</a></li>
+							<li><a href="#">Tempor incididunt</a></li>
+							<li><a href="#">Dolore magna aliqua</a></li>
+							<li><a href="#">Ut enim ad minim veniam</a></li>
+							<li><a href="#">Quis nostrud</a></li>
+						</ul>
+					</li>
+					<li class="li"><a href="#">Payment</a></li>
+					<li class="li"><a href="#">Shipping</a></li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 brc row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 form">
+ 						 <input type="search" name="1" placeholder="search" class="input">
+ 						 <button class="button">
+ 						 	<div class="search-img"></div>
+ 						 </button>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 basket">
+					<div class="top-cart">
+						<div class="cart-content">4</div>
+						<img src="1.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="slide">Slide</div>
+<div class="content">
+	<div class="container second">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 checkbox" style="margin-top: 0px; ">
+				<div class="ul">
+						<form action="#" method="post"><!-- Прописываем Чекбоксы в тэге <label>, обязательно! далее идёт чекбокс(не фейковый)inputtype="checkbox") потом ставим span это будет фейковый чекбокс и далее ещё один спан в котором находится описание чекбокс-->
+							<h3>DEVICE TYPE</h3>
+								<input type="checkbox" id="dt-input1">
+								<label for="dt-input1" class="checbox-label">Laptop</label><br>
+								<input type="checkbox" id="dt-input2">
+								<label for="dt-input2" class="checbox-label">Tablet</label>
+							<h3>COLOR</h3>	
+								<input type="checkbox" id="dt-input3">
+								<label for="dt-input3" class="checbox-label">Black</label><br>
+								<input type="checkbox" id="dt-input4">
+								<label for="dt-input4" class="checbox-label">Red</label><br>
+								<input type="checkbox" id="dt-input5">
+								<label for="dt-input5" class="checbox-label">Green</label><br>
+								<input type="checkbox" id="dt-input6">
+								<label for="dt-input6" class="checbox-label">Blue</label><br>
+								<input type="checkbox" id="dt-input7">
+								<label for="dt-input7" class="checbox-label">Orange</label>
+							<h3>RAM</h3>
+								<input type="checkbox" id="dt-input8">
+								<label for="dt-input8" class="checbox-label">1GB</label><br>
+								<input type="checkbox" id="dt-input9">
+								<label for="dt-input9" class="checbox-label">2GB</label><br>
+								<input type="checkbox" id="dt-input10">
+								<label for="dt-input10" class="checbox-label">4GB</label><br>
+								<input type="checkbox" id="dt-input11">
+								<label for="dt-input11" class="checbox-label">6GB</label><br>
+								<input type="checkbox" id="dt-input12">
+								<label for="dt-input12" class="checbox-label">8GB</label>
+							
+					</form>
+				</div>
+				<div class="a">
+					<a href="#"> Show more optoins ...</a>
+				</div>
+				<div class="div-button">
+						<button name="button-submit" class="checkbox-button">SUBMIT</button>
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 product">
+					<div class="breadcrumbs row">
+						<div><a href="#">Home page ></a></div>
+						<div><a href="#">Products ></a></div>
+						<div><a href="#">Laptops and Tablets</a></div>
+					</div>			
+					<div class="container-product-header row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 caption"><h1>Laptops and Tables</h1>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 select">
+							<select class="select-form">
+								<option>sort by prise</option>
+								<option>sort by name</option>
+								<option>sort by date</option>
+								<option>sort by popularity</option>
+							</select> 
+						</div>
+					</div> 
+					<div class="container-product">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-1" >
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="2.png" alt="1">
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$599<sup>25</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-2">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="8.png" alt="121" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$1250<sup>99</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-3 ">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="9.png" alt="1" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$399<sup>50</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container-product">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-1">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="10.png" alt="q" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$599<sup>25</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-2">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="11.png" alt="1" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$1250<sup>99</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-3">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="12.png" alt="1" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$399<sup>50</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="container-product">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-1">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="13.png" alt="1" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$599<sup>25</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-2">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="8.png" alt="12" >
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$1250<sup>99</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 main-3">
+							<div class="product-1">
+								<div class="img">		
+									<a href="#" class="zoom"><div class="zoom-1"></div></a>	
+									<button class="like">
+										<span class="like-1"></span>
+									</button>	
+									<img src="9.png" alt="1">
+								</div>
+								<div class="info">
+									<h3>#1 Device Name</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<span class="span-product">Type:</span><span>Laptop</span><br>
+									<span class="span-product">SCREEN SIZE:</span><span>7 inchers</span><br>
+									<span class="span-product">RAM:</span><span>1GB</span>
+									<h2>$399<sup>50</sup></h2>
+									<div class="product-button">
+										<button class="more_details">MORE DETAILS</button>
+										<button class="add_to_cart">ADD TO CART<div class="add-to-cart-img" ></div></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 "></div>
+				<div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 load-more"><a href="#" style="text-decoration: none;"> Load more...</a></div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer row">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer-content">
+				<div class="footer-content-main"><a href="#" style="text-decoration: none;">Copyright 2017</a><div>
+			</div>
+		</div>
+	</div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
